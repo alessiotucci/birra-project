@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aless\\OneDrive\\Desktop\\demo.solution\\demo\\demo.csproj": {}
+    "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aless\\OneDrive\\Desktop\\demo.solution\\demo\\demo.csproj": {
+    "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aless\\OneDrive\\Desktop\\demo.solution\\demo\\demo.csproj",
+        "projectUniqueName": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj",
         "projectName": "demo",
-        "projectPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\demo.solution\\demo\\demo.csproj",
+        "projectPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj",
         "packagesPath": "C:\\Users\\Aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\demo.solution\\demo\\obj\\",
+        "outputPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
