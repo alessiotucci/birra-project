@@ -4,9 +4,9 @@ namespace demo.Model
 {
     public class Contratto
     {
-        public dipendenti agente  { get; set; }
+       // public string agenteCf  { get; set; }
 
-        public Cliente cliente { get; set; }
+       // public int PivaCliente { get; set; }
 
         public int Id { get; set; }
 
@@ -15,10 +15,10 @@ namespace demo.Model
         public string prodotto { get; set; }
         public int quantita { get; set; }
 
-        public Contratto(dipendenti agente, Cliente cliente, int id, string cadenza, string prodotto, int quantita)
+        public Contratto(/*string agentecf, int pivacliente,*/ int id, string cadenza, string prodotto, int quantita)
         {
-            this.agente = agente;
-            this.cliente = cliente;
+         //   this.agenteCf = agentecf;
+           // this.PivaCliente = pivacliente;
             Id = id;
             this.cadenza = cadenza;
             this.prodotto = prodotto;

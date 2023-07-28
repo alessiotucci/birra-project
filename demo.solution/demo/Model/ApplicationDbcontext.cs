@@ -10,7 +10,7 @@ namespace demo.Model
 
         public DbSet<Cliente> clientes { get; set; }
 
-        public DbSet<dipendenti> dipendentis { get; set; }
+        public DbSet<Dipendenti> dipendentis { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

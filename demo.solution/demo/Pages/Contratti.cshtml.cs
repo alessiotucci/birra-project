@@ -20,7 +20,6 @@ namespace demo.Pages
 
   List<Contratto> contrattoList = new List<Contratto>
         {
-         new (null, null, 0, "trimestrale", "la scura", 10_000)
         };
       
 

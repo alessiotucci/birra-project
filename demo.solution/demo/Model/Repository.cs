@@ -10,7 +10,7 @@ namespace demo.Model
         public IQueryable<Contratto> contrattos => dbcontext.contrattos;
 
 
-        public IQueryable<dipendenti> dipendentis => dbcontext.dipendentis;
+        public IQueryable<Dipendenti> dipendentis => dbcontext.dipendentis;
 
         public IQueryable<Cliente> clientes => dbcontext.clientes;
 

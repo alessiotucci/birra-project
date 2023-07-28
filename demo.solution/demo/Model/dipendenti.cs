@@ -1,8 +1,8 @@
 ﻿namespace demo.Model
 {
-    public class dipendenti
+    public class Dipendenti
     {
-        public string Cf { get; set; }
+        public string Id { get; set; }
 
         public string Nome { get; set; }
 
@@ -10,14 +10,14 @@
 
         public string? Ruolo { get; set; }
 
-        public dipendenti(string _cf, string _nome, string _cognome, string _ruolo)
+        public Dipendenti(string id, string nome, string cognome, string? ruolo = null)
         {
-            Cf = _cf;
-            Nome = _nome;
-            Cognome = _cognome;
-            Ruolo = _ruolo;
-
+            this.Id = id;
+            this.Nome = nome;
+            this.Cognome = cognome;
+            this.Ruolo = ruolo;
         }
+
 
 
     }

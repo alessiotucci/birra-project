@@ -2,23 +2,24 @@
 {
     public class Cliente 
     {
-        public string AgenteCf { get; set; }
-        public int Piva { get; set; }
+      
+        public int Id { get; set; }
 
         public string Nome { get; set; }
+        public string stocazzo { get; set; }
 
         public string Cognome { get; set; }
         public string Tipologia { get; set; } // da aquisire o cliente fisso
-        public int  ContrattoId { get; set; }
+       // public int  Contrattounic { get; set; }
 
-        public Cliente(string agentecf, int piva, string nome, string cognome, string tipologia, int contrattoid)
+        public Cliente( int Id, string nome,string stocazzo, string cognome, string tipologia /*, int contrattoid*/)
         {
-            AgenteCf = agentecf;
-            Piva = piva;
+            this.stocazzo = stocazzo;
+            this.Id = Id;
             Nome = nome;
             Cognome = cognome;
             Tipologia = tipologia;
-            ContrattoId = contrattoid;
+         //   Contrattounic = contrattoid;
         }
     }
 }
