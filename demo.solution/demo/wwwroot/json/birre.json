@@ -1,0 +1,31 @@
+{
+  "beers": [
+    {
+      "name": "la scura",
+      "prices": {
+        "0.33L": 2,
+        "0.5L": 3.5
+      }
+    },
+    {
+      "name": "arancina",
+      "prices": {
+        "0.33L": 2
+      }
+    },
+    {
+      "name": "red passion",
+      "prices": {
+        "0.33L": 3,
+        "0.4L": 4,
+        "1L": 10
+      }
+    },
+    {
+      "name": "forza napoli",
+      "prices": {
+        "0.33L": 5
+      }
+    }
+  ]
+}
