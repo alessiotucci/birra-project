@@ -16,3 +16,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*this is for the table */
+
+/* Style for the table */
+#tabu {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    #tabu th,
+    #tabu td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    #tabu th {
+        background-color: #f2f2f2;
+    }
