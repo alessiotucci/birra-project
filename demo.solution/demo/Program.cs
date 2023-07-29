@@ -1,4 +1,4 @@
-using demo.Model;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,8 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-
-builder.Services.AddDbContext<ApplicationDbcontext>(options => options.UseSqlServer(builder.Configuration.GetValue<string>("Data:Demo:ConnectionString")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

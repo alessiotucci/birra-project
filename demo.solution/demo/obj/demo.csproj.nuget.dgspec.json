@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj": {}
+    "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\demo\\demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj": {
+    "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj",
-        "projectName": "demo",
-        "projectPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\demo.csproj",
-        "packagesPath": "C:\\Users\\Aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\demo\\obj\\",
+        "projectUniqueName": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj",
+        "projectName": "DemoAPI",
+        "projectPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj",
+        "packagesPath": "C:\\Users\\Pello\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +29,89 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\demo\\demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\demo\\demo.csproj",
+        "projectName": "demo",
+        "projectPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\demo\\demo.csproj",
+        "packagesPath": "C:\\Users\\Pello\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Pello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj": {
+                "projectPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
