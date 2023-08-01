@@ -3686,19 +3686,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pello\\.nuget\\packages\\": {}
+    "C:\\Users\\Aless\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\DemoAPI\\DemoAPI.csproj",
       "projectName": "DemoAPI",
-      "projectPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\DemoAPI.csproj",
-      "packagesPath": "C:\\Users\\Pello\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pello\\source\\repos\\birra-project\\demo.solution\\DemoAPI\\obj\\",
+      "projectPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\DemoAPI\\DemoAPI.csproj",
+      "packagesPath": "C:\\Users\\Aless\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aless\\OneDrive\\Desktop\\birra\\demo.solution\\DemoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -213,3 +213,13 @@ C:\Users\Pello\source\repos\birra-project\demo.solution\demo\bin\Debug\net6.0\Sw
 C:\Users\Pello\source\repos\birra-project\demo.solution\demo\bin\Debug\net6.0\DemoAPI.dll
 C:\Users\Pello\source\repos\birra-project\demo.solution\demo\bin\Debug\net6.0\DemoAPI.pdb
 C:\Users\Pello\source\repos\birra-project\demo.solution\demo\obj\Debug\net6.0\demo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\DemoAPI.deps.json
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\DemoAPI.runtimeconfig.json
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\DemoAPI.exe
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\DemoAPI.dll
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\bin\Debug\net6.0\DemoAPI.pdb
+C:\Users\Aless\OneDrive\Desktop\birra\demo.solution\demo\obj\Debug\net6.0\demo.MvcApplicationPartsAssemblyInfo.cs
