@@ -1,25 +1,30 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 /*this is for the table */
 
 /* Style for the table */
+
+#loginform {
+    margin-top: 120px;
+}
+
 #tabu {
     width: 100%;
     border-collapse: collapse;
@@ -28,12 +33,20 @@ body {
 
     #tabu th,
     #tabu td {
-        padding: 8px;
+        padding: 15px 70px;
         border: 1px solid #ddd;
     }
 
-    #tabu th {
-        background-color: #f2f2f2;
-    }
+.form-control {
+    margin: 15px auto;
+}
 
-    /*this is for the details tag*/
+.form-group {
+    margin: 20px auto;
+}
+
+#tabu th {
+    background-color: #f2f2f2;
+}
+
+/*this is for the details tag*/

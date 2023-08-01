@@ -1,16 +1,16 @@
 ﻿@page
 @model demo.Pages.ContrattiModel
 @{
-<h1> contratti </h1>
+    <h1 class="mt-5 mb-5"> Contratti </h1>
 
-<h2> this is the  table of the  contratti</h2>
+    <h2> this is the  table of the  contratti</h2>
 
 
     <hr />
     <hr />
 
     <table id="tabu">
-        <thead>
+        <thead class="d-flex justify-content-center">
             <tr>
                 <th>Agente</th>
                 <th>Cliente</th>
@@ -40,37 +40,37 @@
     <hr />
 
 
-    <div class="card">
+    <div class="card mt-3 mb-3">
         <details>
-            <summary>
+            <summary class="p-3">
                 Aggiungi un contratto
             </summary>
-            <form asp-page-handler="Create" method="post">
+            <form asp-page-handler="Create" method="post" class="ms-5 me-5">
                 <div class="form-group">
                     <label for="agente">Agente:</label>
                     <input type="text" id="agente" name="agente" class="form-control" required />
                 </div>
-                <div class="form-group">
+                <div class="form-group mt-3">
                     <label for="cliente">Cliente:</label>
                     <input type="text" id="cliente" name="cliente" class="form-control" required />
                 </div>
-                <div class="form-group">
+                <div class="form-group mt-3">
                     <label for="Id">Id:</label>
                     <input type="number" id="Id" name="Id" class="form-control" required />
                 </div>
-                <div class="form-group">
-                    <label for="cadenza">Cedenza:</label>
+                <div class="form-group mt-3">
+                    <label for="cadenza">Cadenza:</label>
                     <input type="text" id="cadenza" name="Provincia" class="form-control" required />
                 </div>
-                <div class="form-group">
+                <div class="form-group mt-3">
                     <label for="prodotto">Prodotto:</label>
                     <input type="text" id="prodotto" name="Cap" class="form-control" required />
                 </div>
-                <div class="form-group">
+                <div class="form-group mt-3">
                     <label for="quantita">Quantità di birra:</label>
                     <input type="number" id="quantita" name="RecapitoTel" class="form-control" required />
                 </div>
-                <button type="submit" class="btn btn-primary">Create</button>
+                <button type="submit" class="btn btn-primary mt-3 mb-5">Create</button>
             </form>
         </details>
     </div>
